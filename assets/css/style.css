@@ -1,5 +1,4 @@
 :root {
-  --main-color: #D33F49;      /* Burnt Red */
   --indigo: #094074;
   --lapis-lazuli: #3C6997;
   --blue-green: #00A0CC;
@@ -23,9 +22,11 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: var(--lapis-lazuli);
+  font-family: 'Tahoma', sans-serif;
 }
 header h1{
   color: var(--white);
+  font-weight: light;
 }
 nav a {
   color: var(--light-gray);
